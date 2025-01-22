@@ -1,11 +1,25 @@
 .slider-image {
   position: absolute;
+  left: 154px;
+  top: 24px;
   height: 546px;
-  top: 182px;
-  left: 707px;
-  opacity: 100%;
+  animation: fade 3s ease-in-out infinite;
 }
+@keyframes fade {
+  0% {
+    opacity: 10%;
+  }
+  25% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 100%;
+  }
 
-.slider-image-two::after {
-  opacity: 0;
+  100% {
+    opacity: 10%;
+  }
 }

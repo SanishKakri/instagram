@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./imageSlider.css";
 
-function ImageSlider({ images, interval = 1000 }) {
+function ImageSlider({ images, interval = 3000 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -15,15 +15,11 @@ function ImageSlider({ images, interval = 1000 }) {
   }, [images.length, interval]);
 
   return (
-    <div className="slider">
-      <div className="slider-content">
-        <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex}`}
-          className="slider-image slider-image-two"
-        />
-      </div>
-    </div>
+    <img
+      src={images[currentIndex]}
+      alt={`Slide ${currentIndex}`}
+      className="slider-image"
+    />
   );
 }
 

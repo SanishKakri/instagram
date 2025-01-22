@@ -18,6 +18,9 @@ body {
   min-height: 100vh;
   margin: auto;
 }
+.phoneImg {
+  position: relative;
+}
 .screenshot {
   position: absolute;
   height: 550px;

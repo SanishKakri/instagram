@@ -9,13 +9,13 @@ function App() {
   ];
   return (
     <div className="container">
-      <div>
-        <ImageSlider images={images} interval={1000} />
+      <div className="phoneImg">
         <img
           src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?"
           alt="iphone"
-          className="phoneImg"
         />
+
+        <ImageSlider images={images} interval={3000} />
       </div>
 
       <div className="form-div">

@@ -1,0 +1,11 @@
+.slider-image {
+  position: absolute;
+  height: 546px;
+  top: 182px;
+  left: 707px;
+  opacity: 100%;
+}
+
+.slider-image-two::after {
+  opacity: 0;
+}

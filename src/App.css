@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+}
+.screenshot {
+  position: absolute;
+  height: 550px;
+  top: 185px;
+  left: 706px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 70px;
+}
+.form-div form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.input {
+  width: 250px;
+  padding: 0.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  margin: 3px;
+}
+
+.login-btn {
+  width: 270px;
+  padding: 0.4rem;
+  font-weight: 700;
+  background-color: rgba(1, 183, 255);
+  border: none;
+  border-radius: 8px;
+  margin: 8px 0px;
+  color: white;
+}
+#or {
+  margin: 20px 0;
+}
+#or:before,
+#or:after {
+  content: "-------------------";
+  color: rgba(128, 128, 128, 0.7);
+  margin: 0 10px;
+}
+.fb-login {
+  font-weight: 700;
+  font-size: 95%;
+  color: rgb(85, 0, 255);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fbLogo {
+  width: 20px;
+  margin-right: 5px;
+}
+.sign-up {
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 20px;
+  margin: 10px;
+  width: 307px;
+}
+.get-app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.get-app p {
+  font-size: 15px;
+  margin: 5px 0 12px 0;
+}
+.store {
+  display: flex;
+  align-items: center;
+}
+
+#play {
+  width: 160px;
+}
+#microsoft {
+  width: 135px;
+  border-radius: 8px;
+}
